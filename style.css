@@ -20,17 +20,18 @@ body {
   text-align: center;
   color: white;
   padding: 20px;
-}
-
-.recruiter {
   background-color: #0066ff;
 }
 
-.job-seeker {
+.messi {
+  background-color: #0066ff;
+}
+
+.cristiano {
   background-color: #33b5ff;
 }
 
-.content {
+.container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -39,24 +40,24 @@ body {
   max-height: 500px;
   max-width: 300px;
   width: 100%;
-  gap: 80px; /* controle de espaçamento entre os elementos */
+  gap: 80px; 
 }
 
-.top h2 {
+.topo h2 {
   font-size: 23px;
   font-weight: 800;
 }
 
-.middle {
+.meio {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.middle img {
+.meio img {
   width: 350px;
   height: 350px;
-  object-fit: contain; /* mantém proporção sem distorcer */
+  object-fit: contain; 
 }
 
 .btn {
@@ -72,7 +73,7 @@ body {
   margin-bottom: 10px;
 }
 
-.job-seeker .btn {
+.cristiano .btn {
   color: #33b5ff;
 }
 
@@ -80,19 +81,19 @@ body {
   background-color: #f0f0f0;
 }
 
-.bottom p {
+.botao p {
   font-size: 14px;
   color: #e8e8e8;
   line-height: 1.4;
 }
 
-.bottom a {
+.botao a {
   color: white;
   text-decoration: underline;
   font-weight: 500;
 }
 
-/* Responsivo para celular */
+
 @media (max-width: 768px) {
   body {
     flex-direction: column;
@@ -103,7 +104,7 @@ body {
     height: 50%;
   }
 
-  .middle img {
+  .meio img {
     width: 120px;
     height: 120px;
   }
